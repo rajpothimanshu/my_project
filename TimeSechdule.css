@@ -1,0 +1,35 @@
+/* .TS_heading{
+    width: 100%;
+    font-size: 22px;
+    color: black;
+}
+
+.TS_main_container{
+    display: flex;
+    margin-bottom:20px ;
+    justify-content: flex-start;
+    flex-wrap:  wrap;
+    color: black;
+} */
+
+
+
+.TS_heading {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;                   /* softer black */
+    margin-bottom: 12px;
+    border-bottom: 2px solid #ddd; /* subtle divider */
+    padding-bottom: 6px;
+    text-transform: capitalize;    /* keeps headings neat */
+}
+
+.TS_main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;                     /* cleaner spacing between items */
+    margin-bottom: 20px;
+    color: #333;                   /* softer text */
+}

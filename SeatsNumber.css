@@ -1,0 +1,85 @@
+/* 
+
+.form_check_label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.form_check_label .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  min-width: 100px;
+}
+
+.seats-input {
+  width: 60px;
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.seats-input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 3px rgba(74, 144, 226, 0.4);
+} */
+
+/* .form_check_label{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+}
+
+.seats-input{
+  width: 70%;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align:  center;
+  border: none !important;
+  padding: 5px;
+  
+
+} */
+
+
+
+
+
+
+.form_check_label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;                /* spacing instead of margin hacks */
+  max-width: fit-content;
+  margin: 10px auto;        /* center align container */
+}
+
+.seats-input {
+  width: 80px;              /* fixed width for consistency */
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #ccc;   /* soft border instead of none */
+  padding: 6px 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.seats-input:focus {
+  outline: none;
+  border-color: #007bff;    /* highlight on focus */
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}

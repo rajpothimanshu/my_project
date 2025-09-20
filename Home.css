@@ -1,0 +1,145 @@
+/* .container{
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px 30px 0px 30px;
+    background-color: #f0eaea;
+    border: 1px solid black;
+    border-radius:  5px;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgba(199,207,224,0.6);
+}
+
+.select_movie_component{
+    flex-grow: 1;
+}
+
+.BN-btn{
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    left: 10px;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(5,5,5);
+    font-weight:bold ;
+    background-color: rgb(238,239,241);
+    border: 2px solid rgba(10,10,10);
+    position: relative;
+
+}
+
+.BN-btn:hover{
+    background-color: blue;
+    color:#fff ;
+}
+
+.wrapper{
+    display:flex;
+    flex-grow: 0;
+    overflow: visible;
+
+} */
+
+/* .container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc;  
+    border-radius: 8px;      
+    color: #333;              
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+.select_movie_component {
+    flex-grow: 1;
+}
+
+.BN-btn {
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    background-color: #f1f1f1;
+    border: 2px solid #444;
+    transition: all 0.3s ease; 
+}
+
+.BN-btn:hover {
+    background-color: #007bff; 
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;        
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+.BN-btn:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+} */
+
+.container {
+    width: 100%;
+    max-width: 1000px;   /* keeps layout centered and readable */
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;  /* slightly smoother corners */
+    color: #333;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;     /* better text spacing */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.select_movie_component {
+    flex-grow: 1;
+}
+
+.BN-btn {
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    background-color: #f1f1f1;
+    border: 2px solid #444;
+    transition: all 0.3s ease;
+}
+
+.BN-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #0056b3;
+    transform: scale(1.05);      /* subtle grow effect */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .BN-btn {
+        width: 100%;  /* full-width button on small screens */
+    }
+}

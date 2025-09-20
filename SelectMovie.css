@@ -1,0 +1,37 @@
+/* .SM_heading{
+    width:100%;
+    font-size: 22px;
+    color:black;
+}
+
+.SM_main_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap ;
+    margin-bottom: 20px;
+    color: black;
+} */
+
+
+
+.SM_heading {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;                 /* softer black for readability */
+    margin-bottom: 12px;
+    border-bottom: 2px solid #ddd; /* subtle underline */
+    padding-bottom: 6px;
+    text-transform: capitalize;  /* optional for consistent headings */
+}
+
+.SM_main_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;                   /* better spacing between items */
+    margin-bottom: 20px;
+    color: #333;                 /* consistent text color */
+}
